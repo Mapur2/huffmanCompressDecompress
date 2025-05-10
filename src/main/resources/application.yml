@@ -1,0 +1,10 @@
+spring :
+  application :
+    name :
+      huffman
+  thymeleaf:
+    cache: false # Disable caching for development, set to true in production
+    mode: HTML #  HTML is the default, but setting it explicitly is good
+    encoding: UTF-8 #  Ensure UTF-8 encoding
+    prefix: classpath:/templates/ #  Location of your Thymeleaf templates
+    suffix: .html #  Suffix for your Thymeleaf templates
